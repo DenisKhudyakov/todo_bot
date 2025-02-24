@@ -18,7 +18,7 @@ docker build -t task-planner-bot .
 
 2️⃣ **Запусти контейнер:**
 ```sh
-docker run --rm task-planner-bot
+docker run -d --name task-planner-bot task-planner-bot
 ```
 
 3️⃣ **(Опционально) Использование переменных окружения:**
